@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Algoritma
+        </title>
+    </head>
+    <body>   
+    
+    
+    <script type="text/javascript">
+     
+        a= prompt("first number?");
+        b= prompt("second number?");
+        c= prompt("third number?");
+        
+        var numbers = [a, b, c];
+        var maximal = Math.max.apply(Math, numbers);
+        var minimal = Math.min.apply(Math, numbers);
+        document.write("Dari angka-angka ini : " + numbers + "<br/>");
+        document.write("angka yang terbesar adalah " + maximal + "<br/>");
+        document.write("angka yang terkecil adalah " +minimal);
+    </script>
+     </body>    
+</html>
